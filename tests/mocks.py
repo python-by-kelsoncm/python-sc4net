@@ -54,6 +54,13 @@ class MockHttpServerRequestHandler(BaseHTTPRequestHandler):
             self.send_error(404, FILE_NOT_FOUND_ERROR_MESSAGE)
             return
 
+        allowed_files = {
+            name for name in os.listdir(dir_path) if os.path.isfile(os.path.join(dir_path, name))
+        }
+        if safe_filepath not in allowed_files:
+            self.send_error(404, FILE_NOT_FOUND_ERROR_MESSAGE)
+            return
+
         full_file_name = os.path.realpath(os.path.join(dir_path, safe_filepath))
 
         if os.path.commonpath([dir_path, full_file_name]) != dir_path:
