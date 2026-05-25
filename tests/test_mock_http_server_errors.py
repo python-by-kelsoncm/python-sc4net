@@ -11,7 +11,7 @@ from .mocks import FILE_NOT_FOUND_ERROR_MESSAGE, MockHttpServerRequestHandler
 
 def get_free_port():
     s = socket.socket()
-    s.bind(("", 0))
+    s.bind(("127.0.0.1", 0))
     port = s.getsockname()[1]
     s.close()
     return port
