@@ -41,10 +41,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/kelsoncm/python-sc4net"
-"Bug Tracker" = "https://github.com/kelsoncm/python-sc4net/issues"
-Download = "https://github.com/kelsoncm/python-sc4net/releases/"
-Docs = "https://kelsoncm.github.io/python-sc4net/"
+Homepage = "https://github.com/python-by-kelsoncm/python-sc4net"
+"Bug Tracker" = "https://github.com/python-by-kelsoncm/python-sc4net/issues"
+Download = "https://github.com/python-by-kelsoncm/python-sc4net/releases/"
+Docs = "https://python-by-kelsoncm.github.io/python-sc4net/"
 
 
 [tool.setuptools.packages.find]
