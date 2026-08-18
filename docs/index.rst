@@ -2,7 +2,7 @@ sc4net
 ======
 
 .. image:: https://img.shields.io/badge/GitHub-Repository-blue?logo=github
-   :target: https://github.com/kelsoncm/python-sc4net
+   :target: https://github.com/python-by-kelsoncm/python-sc4net
    :alt: GitHub Repository
 
 .. image:: https://img.shields.io/badge/License-MIT-lemon.svg
@@ -13,20 +13,20 @@ sc4net
    :target: https://pypi.org/project/sc4net/
    :alt: Python
 
-.. image:: https://github.com/kelsoncm/python-sc4net/actions/workflows/qa.yml/badge.svg
-   :target: https://github.com/kelsoncm/python-sc4net/actions/workflows/qa.yml
+.. image:: https://github.com/python-by-kelsoncm/python-sc4net/actions/workflows/qa.yml/badge.svg
+   :target: https://github.com/python-by-kelsoncm/python-sc4net/actions/workflows/qa.yml
    :alt: QA
 
-.. image:: https://codecov.io/gh/kelsoncm/python-sc4net/branch/main/graph/badge.svg
-   :target: https://codecov.io/gh/kelsoncm/python-sc4net
+.. image:: https://codecov.io/gh/python-by-kelsoncm/python-sc4net/branch/main/graph/badge.svg
+   :target: https://codecov.io/gh/python-by-kelsoncm/python-sc4net
    :alt: Coverage
 
-.. image:: https://github.com/kelsoncm/python-sc4net/actions/workflows/publish.yml/badge.svg
-   :target: https://github.com/kelsoncm/python-sc4net/actions/workflows/publish.yml
+.. image:: https://github.com/python-by-kelsoncm/python-sc4net/actions/workflows/publish.yml/badge.svg
+   :target: https://github.com/python-by-kelsoncm/python-sc4net/actions/workflows/publish.yml
    :alt: Publish
 
-.. image:: https://github.com/kelsoncm/python-sc4net/actions/workflows/docs.yml/badge.svg
-   :target: https://kelsoncm.github.io/python-sc4net/
+.. image:: https://github.com/python-by-kelsoncm/python-sc4net/actions/workflows/docs.yml/badge.svg
+   :target: https://python-by-kelsoncm.github.io/python-sc4net/
    :alt: Docs
 
 .. image:: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit

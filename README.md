@@ -2,10 +2,10 @@
 
 [![License](https://img.shields.io/badge/License-MIT-lemon.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/pypi/pyversions/sc4net.svg)](https://pypi.org/project/sc4net/)
-[![QA](https://github.com/kelsoncm/python-sc4net/actions/workflows/qa.yml/badge.svg)](https://github.com/kelsoncm/python-sc4net/actions/workflows/qa.yml)
-[![Coverage](https://codecov.io/gh/kelsoncm/python-sc4net/branch/main/graph/badge.svg)](https://codecov.io/gh/kelsoncm/python-sc4net)
-[![Publish](https://github.com/kelsoncm/python-sc4net/actions/workflows/publish.yml/badge.svg)](https://github.com/kelsoncm/python-sc4net/actions/workflows/publish.yml)
-[![Docs](https://github.com/kelsoncm/python-sc4net/actions/workflows/docs.yml/badge.svg)](https://kelsoncm.github.io/python-sc4net/)
+[![QA](https://github.com/python-by-kelsoncm/python-sc4net/actions/workflows/qa.yml/badge.svg)](https://github.com/python-by-kelsoncm/python-sc4net/actions/workflows/qa.yml)
+[![Coverage](https://codecov.io/gh/python-by-kelsoncm/python-sc4net/branch/main/graph/badge.svg)](https://codecov.io/gh/python-by-kelsoncm/python-sc4net)
+[![Publish](https://github.com/python-by-kelsoncm/python-sc4net/actions/workflows/publish.yml/badge.svg)](https://github.com/python-by-kelsoncm/python-sc4net/actions/workflows/publish.yml)
+[![Docs](https://github.com/python-by-kelsoncm/python-sc4net/actions/workflows/docs.yml/badge.svg)](https://python-by-kelsoncm.github.io/python-sc4net/)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
 
 Network helpers for HTTP(S) and FTP downloads, with convenience JSON and ZIP readers.
@@ -23,8 +23,8 @@ Please report vulnerabilities according to [SECURITY.md](SECURITY.md).
 ## How to contribute
 
 ```bash
-git clone git@github.com:kelsoncm/sc4.git ~/projetos/PESSOAL/sc4net
-code ~/projetos/PESSOAL/sc4net
+git clone git@github.com:python-by-kelsoncm/python-sc4net.git ~/projetos/PESSOAL/pbkw/python-sc4net
+code ~/projetos/PESSOAL/pbkw/python-sc4net
 ```
 
 ## Pre-commit
@@ -56,7 +56,7 @@ Hooks:
 * **pre-commit**: `black`, `isort`, `bandit`, `flake8` (with `flake8-bandit`)
 * **pre-push**:
   1. Runs `pytest --cov=sc4net --cov-report=xml` to produce `coverage.xml`
-  2. [`pytest-coverage-gate`](https://github.com/kelsoncm/pytest-coverage-gate)
+  2. [`pytest-coverage-gate`](https://github.com/python-by-kelsoncm/pytest-coverage-gate)
      reads `coverage.xml`, compares against `.coverage-baseline`
      (2 decimal places), blocks the push on regression and updates the
      baseline on improvement

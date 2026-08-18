@@ -46,8 +46,8 @@ Contribuindo
 
 .. code-block:: bash
 
-    git clone git@github.com:kelsoncm/sc4.git ~/projetos/PESSOAL/sc4net
-    cd ~/projetos/PESSOAL/sc4net
+    git clone git@github.com:python-by-kelsoncm/python-sc4net.git ~/projetos/PESSOAL/pbkw/python-sc4net
+    cd ~/projetos/PESSOAL/pbkw/python-sc4net
 
 2. Crie o ambiente virtual e instale as dependências de desenvolvimento:
 

@@ -2,8 +2,8 @@ How to contribute
 =================
 
 .. code-block::bash
-    git clone git@github.com:kelsoncm/sc4net.git ~/projetos/PESSOAL/sc4net
-    code ~/projetos/PESSOAL/sc4net
+    git clone git@github.com:python-by-kelsoncm/python-sc4net.git ~/projetos/PESSOAL/pbkw/python-sc4net
+    code ~/projetos/PESSOAL/pbkw/python-sc4net
 
 Pre-commit
 ----------
